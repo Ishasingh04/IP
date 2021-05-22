@@ -67,15 +67,20 @@
       <div class="formcontainer">
       <hr/>
       <div class="container">
-      <label for="to">Transfer To: </label><input type="text" name="to" placeholder="Receipent's acc number" required="required">
+      <label for="to">Transfer To: </label><input type="number" name="to" placeholder="Receipent's acc number" required="required">
 		<br><br>
-		<label for="money">Enter Amount: </label><input type="text" name="money" placeholder="Amount to transfer" required="required">
+		<label for="money">Enter Amount: </label><input type="number" name="money" placeholder="Amount to transfer" required="required">
 		<br><br>
       </div>
 
      	<button type="submit" name="transfer">TRANSFER</button>
-		<button type="button" onclick="">GO BACK</button>
-     
+		<button type="button" onclick="">Go Back</button>
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+        <input type="checkbox"  checked="checked" name="remember"> Remember me
+        </label>
+        <span class="psw"><a href="#"> Forgot pin?</a></span>
+      </div>
     </form>
 </div>
   </body>
@@ -93,7 +98,7 @@
 		<label for="money">Enter Amount: </label><input type="number" name="money" placeholder="Amount to transfer" required="required">
 		<br><br>
 		<button type="submit" name="transfer">TRANSFER</button>
-		<button type="button" onclick="">GO BACK</button>
+		<button type="button" onclick="">Go Back</button>
 	</form>	
 </body>
 </html> -->

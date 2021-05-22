@@ -67,15 +67,20 @@
       <div class="formcontainer">
       <hr/>
       <div class="container">
-        <label for="Amount">Enter Withdrawal Amount: </label><input type="text" name="Amount" placeholder="Enter amount to withdraw" required="required">
+        <label for="Amount">Enter Withdrawal Amount: </label><input type="number" name="Amount" placeholder="Enter amount to withdraw" required="required">
 		<br><br>
 		<label for="Details">Enter Details: </label><input type="text" name="Details" placeholder="Add some details">
 		<br><br>
       </div>
 
      	<button name="withdraw" type="submit">WITHDRAW</button>
-		<button type="button" onclick="">GO BACK</button>
-     
+		<button type="button" onclick="">Go Back</button>
+      <div class="container" style="background-color: #eee">
+        <label style="padding-left: 15px">
+        <input type="checkbox"  checked="checked" name="remember"> Remember me
+        </label>
+        <span class="psw"><a href="#"> Forgot pin?</a></span>
+      </div>
     </form>
 </div>
   </body>
